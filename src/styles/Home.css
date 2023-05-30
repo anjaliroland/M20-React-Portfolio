@@ -1,0 +1,13 @@
+.homePge {
+    background-image: url("../assets/images/banner.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40em;
+    margin: 0%;
+}
+
+.homePge h3 {
+    color: #ECF3EC;
+    background-color: transparent;
+}

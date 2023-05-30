@@ -1,0 +1,40 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #828282;
+    color: #ECF3EC;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 0;
+}
+
+header .container {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.nav-item a {
+    color: #ECF3EC;
+    text-decoration: none;
+    font-size: 150%;
+    padding-bottom: 0;
+}
+
+.nav-item a:hover {
+    transform: rotatey(0deg);
+}
+
+.footer {
+    padding: 3%;
+}
+
+.footer a {
+    padding: 3em;
+}

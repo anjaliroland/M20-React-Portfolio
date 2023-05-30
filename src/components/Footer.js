@@ -5,19 +5,18 @@ import spotify from "../assets/images/green-spotify.png";
 
 export default function Footer() {
     return (
-        <div>
-            <footer>
-                <a href="https://github.com/anjaliroland" target="_blank">
-                    <img src={github} alt="github logo" />
-                </a>
-                <a href="https://www.linkedin.com/in/anjali-roland/" target="_blank">
-                    <img src={linkedin} alt="linkedin logo" />
-                </a>
-                <a href="https://open.spotify.com/user/agroland"
+        <footer className="text-center footer">
+            <a href="https://github.com/anjaliroland" target="_blank">
+                <img src={github} alt="github logo" style={{ width: 'auto', height: '10em', }} />
+            </a>
+            <a href="https://www.linkedin.com/in/anjali-roland/" target="_blank">
+                <img src={linkedin} alt="linkedin logo" style={{ width: 'auto', height: '11em', }} />
+            </a>
+            <a href="https://open.spotify.com/user/agroland"
                 target="_blank">
-                    <img src={spotify} alt="spotify logo" />
-                </a>
-            </footer>
-        </div>
+                <img src={spotify} alt="spotify logo" style={{ width: 'auto', height: '12em', }} />
+            </a>
+        </footer>
+
     )
 }
