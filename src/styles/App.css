@@ -12,25 +12,50 @@ header {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding-bottom: 0;
+    background-color: #828282;
 }
 
-header .container {
-    padding-bottom: 0;
-    margin-bottom: 0;
+header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4%;
 }
 
+.menu-button {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 100;
+  }
+  
+.nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+  
 .nav-item a {
+    position: relative;
+    margin: 0 1%;
+    padding: 1% 2%;
+    font-size: 120%;
+    cursor: pointer;
     color: #ECF3EC;
     text-decoration: none;
-    font-size: 150%;
-    padding-bottom: 0;
 }
-
+  
+.nav-item a:active,
+.nav-item a:focus,
 .nav-item a:hover {
-    transform: rotatey(0deg);
+    outline: none;
+    border: none;
+    text-decoration: underline;
+    color: peachpuff;
 }
-
+  
 .footer {
     padding: 3%;
 }
