@@ -5,7 +5,7 @@ import "../styles/Portfolio.css";
 
 export default function Project(props) {
     return (
-        <div className="col-md-4 col-sm-6">
+        <div className="col-md-4">
             <div className="box">
                 <img src={props.image} />
                 <div className="box-content">

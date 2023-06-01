@@ -45,31 +45,49 @@ export default function Contact() {
     return (
         <main>
             <div className="contact">
-                <h1>Send me a message!</h1>
-                <form className="form">
-                    <input
-                    value={name}
-                    name="name"
-                    onChange={handleInputChange}
-                    type="text"
-                    placeholder="Name"
-                    />
-                    <input
-                    value={email}
-                    name="email"
-                    onChange={handleInputChange}
-                    type="text"
-                    placeholder="Email"
-                    />
-                    <input
-                    value={comment}
-                    name="comment"
-                    onChange={handleInputChange}
-                    type="text"
-                    placeholder="Comment"
-                    />
-                    <button type="button" onClick={handleFormSubmit}>Submit</button>
+                <h2>Send me a message!</h2>
+                <form className="form w-75">
+                    <label>
+                        First and Last Names:
+                        <input
+                        value={name}
+                        name="name"
+                        onChange={handleInputChange}
+                        type="text"
+                        placeholder="Christopher Robin"
+                        />
+                    </label>
+                    <br/>
+                    <label>
+                        Email: 
+                        <input
+                        value={email}
+                        name="email"
+                        onChange={handleInputChange}
+                        type="text"
+                        placeholder="c.robin@gmail.com"
+                        />
+                    </label>
+                    <br/>
+                    <label>
+                        Message:
+                        <br/>
+                        <textarea
+                        value={comment}
+                        name="comment"
+                        onChange={handleInputChange}
+                        type="text"
+                        placeholder="ex// Owl suggests we start a book club in Hundred Acre Wood and thinks we should create a web app with details, could you help?"
+                        />
+                    </label>
+                    <br/>
+                    <button className="align-self-center" type="button" onClick={handleFormSubmit}>submit</button>
                 </form>
+                {errorMessage && (
+                    <div>
+                        <p className="error-text">{errorMessage}</p>
+                    </div>
+                 )}
             </div>
         </main>
     )

@@ -1,7 +1,12 @@
+.portfolio h2 {
+    color: #ECF3EC;
+}
+
 .box{
     font-family: 'Raleway', sans-serif;
     overflow: hidden;
     position: relative;
+    margin: 3%;
 }
 .box img{
     width: 100%;

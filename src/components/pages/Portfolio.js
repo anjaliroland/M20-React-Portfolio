@@ -12,13 +12,6 @@ export default function Portfolio(props) {
             <div className="row">
                 <h2>My Work</h2>
                 <Project 
-                    title="Bite Buddies"
-                    tech="Handlebars / SQL"
-                    image={BiteBuddies}
-                    link="https://bite-buddies.herokuapp.com/"
-                    github="https://github.com/bear-muna/bite-buddies"
-                />
-                <Project 
                     title="Campricorn"
                     tech="APIs"
                     image={Campricorn}
@@ -26,7 +19,7 @@ export default function Portfolio(props) {
                     github="https://github.com/aerostokes/camping-starcharts"
                 />
                 <Project 
-                    title="Golden Girls Trivia Quiz"
+                    title="Golden Girls Quiz"
                     tech="JavaScript"
                     image={GoldenGirls}
                     link="https://anjaliroland.github.io/M4-WebAPIs-Quiz/"
@@ -40,16 +33,23 @@ export default function Portfolio(props) {
                     github="https://github.com/anjaliroland"
                 />
                 <Project 
-                    title="Park + Play"
-                    tech="APIs / CSS"
-                    image={Park}
-                    link="https://www.google.com/"
-                    github="https://github.com/anjaliroland"
+                    title="Bite Buddies"
+                    tech="Handlebars / SQL"
+                    image={BiteBuddies}
+                    link="https://bite-buddies.herokuapp.com/"
+                    github="https://github.com/bear-muna/bite-buddies"
                 />
                 <Project 
                     title="Trail Buddy"
                     tech="React / JavaScript"
                     image={Trail}
+                    link="https://www.google.com/"
+                    github="https://github.com/anjaliroland"
+                />
+                <Project 
+                    title="Park + Play"
+                    tech="APIs / CSS"
+                    image={Park}
                     link="https://www.google.com/"
                     github="https://github.com/anjaliroland"
                 />
