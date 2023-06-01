@@ -1,7 +1,7 @@
 {
   "name": "m20-react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://anjaliroland.github.io/m20-react-portfolio",
+  "homepage": "https://anjaliroland.github.io/M20-React-Portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
