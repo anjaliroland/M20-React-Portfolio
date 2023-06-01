@@ -46,9 +46,9 @@ export default function Contact() {
         <main>
             <div className="contact">
                 <h2>Send me a message!</h2>
-                <form className="form w-75">
+                <form className="form">
                     <label>
-                        First and Last Names:
+                        First and Last Name:
                         <input
                         value={name}
                         name="name"

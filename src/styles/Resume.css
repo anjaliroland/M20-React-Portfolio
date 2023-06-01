@@ -1,0 +1,11 @@
+.resumePge h2,
+.resumePge h3 {
+    color: #ECF3EC;
+}
+
+.resumePge a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 150%;
+}

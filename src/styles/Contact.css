@@ -7,22 +7,20 @@
     width: 75%; 
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
+    align-items: center; 
 }
 
-.contact .label {
+.contact .form .label {
     font-weight: bold;
-    font-size: 100%;
+    font-size: 150%;
     display: block;
     margin-bottom: 1%;
-    width: 100%;
 }
 
 
 .contact input,
 .contact textarea {
     margin: 1%;
-    width: 100%;
     background-color: #fff;
     color: black;
     padding: 0.5% 1%;
