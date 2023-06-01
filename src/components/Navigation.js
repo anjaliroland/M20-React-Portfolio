@@ -1,8 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
+import Resume from "./pages/Resume";
 import "../styles/App.css";
 
-export default function NavTabs({ currentPage, handlePageChange}) {
+export default function Navigation() {
+  const [currentPage, setCurrentPage] = useState('Home');
+
+  const renderPage = () => {
+    if (currentPage === 'Home') {
+      return <Home />;
+    }
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
+    return <h1>404 Page Not Found</h1>
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page)
+
   return (
+    <div>
     <ul className="nav nav-tabs">
       <li className="nav-item p-3">
         <a
@@ -42,7 +71,6 @@ export default function NavTabs({ currentPage, handlePageChange}) {
       </li>
       <li className="nav-item p-3">
         <a
-          href="#resume"
           onClick={() => handlePageChange('Resume')}
           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
@@ -50,5 +78,7 @@ export default function NavTabs({ currentPage, handlePageChange}) {
         </a>
       </li>
     </ul>
+    {renderPage({currentPage})}
+    </div>
   );
 }
