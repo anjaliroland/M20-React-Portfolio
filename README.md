@@ -1,26 +1,21 @@
 # React Portfolio
 
-<!--
+
 ## Table of Contents
 
 - [Description](#📝-description)
     - [User Story](#👤-user-story)
     - [Acceptance Criteria](#☑️-acceptance-criteria)
 - [Technologies Used](#🛠️-technologies-used)
-- [Usage](#💻-usage) 
-    - [Screenshot](#📸-screenshot)
+- [Screenshot](#📸-screenshot)
 - [License](#📃-license)
 - [Links](#🔗-links)
 
+-------------
+
 ## 📝 Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
--->
+Our task this week was to create a new portfolio utilizing the new React skills we learned last week. Using the skills we learned, React docs, and Google I was able to create a portoflio that meets the acceptance criteria stated below.
 
 ### 👤 User Story
 
@@ -60,28 +55,32 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
 
-<!--
+-------------
+
 ## 🛠️ Technologies Used
 
 <ul>
 <li>React
 <li>CSS
 <li>JavaScript
-<li>
-<li>
+<li>Bootstrap
+<li>gh-pages
 </ul>
 
-## 💻 Usage
+--------------
 
 ### 📸 Screenshot
--->
 
+![screenshot of app](./src/assets/images/screenshot.png)
+
+--------------
 
 ## 📃 License
 
 Please refer to the LICENSE in the repo.
 
-<!--
+--------------
+
 ##  🔗 Links
 
--->
+Deployed App: https://anjaliroland.github.io/M20-React-Portfolio/#home
