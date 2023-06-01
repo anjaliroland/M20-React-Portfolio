@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/m20-react-portfolio/static/css/main.79d66144.css",
+    "main.js": "/m20-react-portfolio/static/js/main.e1f3dc49.js",
+    "static/media/me.jpeg": "/m20-react-portfolio/static/media/me.89f45eb2dc6b38662cd9.jpeg",
+    "static/media/trail.JPG": "/m20-react-portfolio/static/media/trail.ddf63404840676c48712.JPG",
+    "static/media/campricorn-stars.png": "/m20-react-portfolio/static/media/campricorn-stars.94127ccafb25eb4406bf.png",
+    "static/media/banner.jpeg": "/m20-react-portfolio/static/media/banner.0d418246146366544361.jpeg",
+    "static/media/golden-girls.png": "/m20-react-portfolio/static/media/golden-girls.55adb8e4aa9f2b5f541a.png",
+    "static/media/park.JPG": "/m20-react-portfolio/static/media/park.35032ea57d16998e032d.JPG",
+    "static/media/Resume-Anjali-Roland.pdf": "/m20-react-portfolio/static/media/Resume-Anjali-Roland.2ca28684acc1e21f1899.pdf",
+    "static/media/concert.JPG": "/m20-react-portfolio/static/media/concert.30d864c48a6744a64d12.JPG",
+    "static/media/green-github.png": "/m20-react-portfolio/static/media/green-github.806af76c9a01a9c1a512.png",
+    "static/media/bbuddies.png": "/m20-react-portfolio/static/media/bbuddies.f3bf06f73a8c0359922b.png",
+    "static/media/green-linkedin.png": "/m20-react-portfolio/static/media/green-linkedin.91f3b451d96f74bc1f49.png",
+    "static/media/green-spotify.png": "/m20-react-portfolio/static/media/green-spotify.e52651190b6f737b7596.png",
+    "static/media/link.png": "/m20-react-portfolio/static/media/link.f832c45fc82560370729.png",
+    "static/media/github.png": "/m20-react-portfolio/static/media/github.5fd00dcdaa94a9ffbe9e.png",
+    "index.html": "/m20-react-portfolio/index.html",
+    "main.79d66144.css.map": "/m20-react-portfolio/static/css/main.79d66144.css.map",
+    "main.e1f3dc49.js.map": "/m20-react-portfolio/static/js/main.e1f3dc49.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79d66144.css",
+    "static/js/main.e1f3dc49.js"
+  ]
+}
